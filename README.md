@@ -19,6 +19,40 @@
 - Firebase Firestore
 - Vercel（デプロイ）
 
+## ディレクトリ構成
+
+```
+my-portfolio/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── assets/           # 画像・SVGなど
+│   ├── components/       # 共通UI部品（Header, Footerなど）
+│   ├── features/         # 各機能ごとにディレクトリを分ける
+│   │   ├── projects/
+│   │   │   ├── ProjectCard.tsx
+│   │   │   ├── ProjectList.tsx
+│   │   │   └── projectTypes.ts
+│   │   └── contact/
+│   │       ├── ContactForm.tsx
+│   │       └── contactTypes.ts
+│   ├── lib/
+│   │   └── supabase.ts   # Supabaseクライアント設定
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Projects.tsx
+│   │   └── Contact.tsx
+│   ├── routes/
+│   │   └── router.tsx    # react-router-dom の設定
+│   ├── App.tsx
+│   └── main.tsx
+├── .env.local            # Supabase URLとKeyを設定
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
 ## 現在の開発状況
 
 ## 使い方・デプロイ方法
