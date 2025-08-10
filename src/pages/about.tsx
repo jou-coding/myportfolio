@@ -1,7 +1,8 @@
-function App() {
+// src/App.tsx
+function About() {
   return (
     <div>
-      <h1>Jou-coding</h1>
+      <h1>About</h1>
       <nav>
         <ol>
           <li>about</li>
@@ -13,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
