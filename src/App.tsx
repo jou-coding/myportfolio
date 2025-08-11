@@ -1,22 +1,29 @@
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <h1>Jou-coding</h1>
-      <h1>about</h1>
+
       <nav>
         <ol>
-          <li>about</li>
+          <li>
+            <Link to="/">about</Link>
+          </li>
           <li>works</li>
-          <li>contact</li>
+          <li>
+            <Link to="/contact">contact</Link>
+          </li>
         </ol>
       </nav>
-      <div>webアプリの制作をしています。</div>
-      <div>
-        <img src="" alt="画像" />
-        <p>名前:Jou-coding</p>
-        <p>事業内容:フロントエンドとバックエンド</p>
-      </div>
-    </div>
+
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
