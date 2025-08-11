@@ -6,27 +6,38 @@ import Works from "./pages/Works";
 function App() {
   return (
     <BrowserRouter>
-      <h1>Jou-coding</h1>
+      <header>
+        <h1>Jou-coding</h1>
 
-      <nav>
-        <ol>
-          <li>
-            <Link to="/">about</Link>
-          </li>
-          <li>
-            <Link to="works">works</Link>
-          </li>
-          <li>
-            <Link to="/contact">contact</Link>
-          </li>
-        </ol>
-      </nav>
+        <nav>
+          <ol>
+            <li>
+              <Link to="/">about</Link>
+            </li>
+            <li>
+              <Link to="works">works</Link>
+            </li>
+            <li>
+              <Link to="/contact">contact</Link>
+            </li>
+          </ol>
+        </nav>
+      </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/works" element={<Works />} />
+        </Routes>
+      </main>
 
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/works" element={<Works />} />
-      </Routes>
+      <footer>
+        <div>
+          <a href="/">About</a>
+          <a href="/works">Works</a>
+          <a href="/contact">Contact</a>
+        </div>
+      </footer>
     </BrowserRouter>
   );
 }
