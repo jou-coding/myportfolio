@@ -1,14 +1,11 @@
-import Hedear from "../components/Header";
-
 function About() {
   return (
     <div>
-      <Hedear />
       <h1>About</h1>
       <div>webアプリの制作をしています。</div>
       <div>
         <img src="" alt="画像" />
-        <p>名前:jou-coding</p>
+        <p>名前:Jou-coding</p>
         <p>内容:フロントエンドとバックエンド</p>
       </div>
     </div>
