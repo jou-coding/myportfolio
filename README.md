@@ -45,6 +45,7 @@ my-portfolio/
 │   ├── routes/
 │   │   └── router.tsx    # react-router-dom の設定
 │   ├── App.tsx
+|   ├── index.css
 │   └── main.tsx
 ├── .env.local            # Supabase URLとKeyを設定
 ├── index.html
