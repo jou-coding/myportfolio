@@ -1,14 +1,8 @@
+import About from "./pages/about";
 function App() {
   return (
     <div>
-      <h1>Jou-coding</h1>
-      <nav>
-        <ol>
-          <li>about</li>
-          <li>works</li>
-          <li>contact</li>
-        </ol>
-      </nav>
+      <About />
     </div>
   );
 }
