@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./pages/Contact";
-import About from "./pages/about";
+import About from "./pages/About";
 import Works from "./pages/Works";
 
 function App() {
