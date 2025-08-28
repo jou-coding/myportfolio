@@ -1,7 +1,7 @@
 function About() {
   return (
-    <div>
-      <h1>About</h1>
+    <div className="flex  justify-center flex-col items-center gap-4">
+      <h1 className="text-3xl font-bold ">About</h1>
       <div>webアプリの制作をしています。</div>
       <div>
         <img src="" alt="画像" />
