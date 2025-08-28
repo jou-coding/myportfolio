@@ -3,6 +3,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Works from "./pages/Works";
 import Hedear from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,13 +17,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer>
-        <div>
-          <a href="/">About</a>
-          <a href="/works">Works</a>
-          <a href="/contact">Contact</a>
-        </div>
-      </footer>
+      <Footer />
     </BrowserRouter>
   );
 }
