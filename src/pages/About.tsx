@@ -1,9 +1,6 @@
-import Hedear from "../components/Header";
-
 function About() {
   return (
     <div>
-      <Hedear />
       <h1>About</h1>
       <div>webアプリの制作をしています。</div>
       <div>

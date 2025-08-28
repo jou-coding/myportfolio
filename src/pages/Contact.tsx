@@ -1,9 +1,6 @@
-import Hedear from "../components/Header";
-
 function Contact() {
   return (
     <div>
-      <Hedear />
       <h1>Contact</h1>
 
       <div>何か不具合などがあれば、お問い合わせください。</div>
