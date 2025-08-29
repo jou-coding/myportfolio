@@ -17,7 +17,6 @@ function App() {
             <Route path="/works" element={<Works />} />
           </Routes>
         </main>
-
         <Footer />
       </div>
     </BrowserRouter>
