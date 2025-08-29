@@ -1,8 +1,12 @@
+import Card from "../components/Card";
 function Works() {
   return (
-    <div>
-      <img src="" alt="説明" />
-      <p>説明内容</p>
+    <div className="flex flex-col justify-center items-center gap-4">
+      <Card
+        text="portfolio"
+        description="自分のサイトを紹介すためのサイトです。"
+      />
+      <Card text="時計アプリ" description="時計を表示するサイト" />
     </div>
   );
 }
