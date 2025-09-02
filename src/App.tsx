@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Contact from "./pages/Contact";
+
 import About from "./pages/About";
 import Works from "./pages/Works";
 import Hedear from "./components/Header";
@@ -13,7 +13,6 @@ function App() {
         <main className="">
           <Routes>
             <Route path="/" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/works" element={<Works />} />
           </Routes>
         </main>

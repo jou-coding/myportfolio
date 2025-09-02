@@ -12,9 +12,6 @@ export default function Hedear() {
           <li className="hover:underline">
             <Link to="/works">works</Link>
           </li>
-          <li className="hover:underline">
-            <Link to="/contact">contact</Link>
-          </li>
         </ul>
       </nav>
     </div>

@@ -12,9 +12,6 @@ export default function Footer() {
             <li className="hover:underline font-bold">
               <Link to="/works">works</Link>
             </li>
-            <li className="hover:underline font-bold">
-              <Link to="/contact">contact</Link>
-            </li>
           </ul>
         </nav>
       </div>
