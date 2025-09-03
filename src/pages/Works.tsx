@@ -24,15 +24,18 @@ function Works() {
     fetchCards();
   }, []);
   return (
-    <div className="flex flex-col justify-center items-center gap-4">
-      {cards.map((card) => (
-        <Card
-          key={String(card.id)}
-          text={card.name}
-          description={card.description}
-          url={card.url}
-        />
-      ))}
+    <div className="flex  justify-center flex-col items-center gap-4">
+      <h1 className="text-3xl font-bold ">Works</h1>
+      <div className="flex flex-col justify-center items-center gap-4">
+        {cards.map((card) => (
+          <Card
+            key={String(card.id)}
+            text={card.name}
+            description={card.description}
+            url={card.url}
+          />
+        ))}
+      </div>
     </div>
   );
 }
