@@ -6,6 +6,7 @@ type Card = {
   id: number;
   name: string;
   description: string;
+  url: string;
 };
 
 function Works() {
@@ -29,6 +30,7 @@ function Works() {
           key={String(card.id)}
           text={card.name}
           description={card.description}
+          url={card.url}
         />
       ))}
     </div>
