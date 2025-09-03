@@ -12,7 +12,7 @@ export default function Card({ text, description, url }: Card) {
       <p>{description}</p>
       <p>
         URL:
-        <a className="hover:underline" href={url}>
+        <a className="hover:underline text-blue-600" href={url}>
           {url}
         </a>
       </p>
