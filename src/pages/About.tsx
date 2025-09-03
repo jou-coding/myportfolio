@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="flex  justify-center flex-col items-center gap-4">
+    <div className="flex  justify-center flex-col items-center gap-4 p-4">
       <h1 className="text-3xl font-bold ">About</h1>
       <div>webアプリの制作をしています。</div>
       <div className="flex flex-col justify-center items-center">
