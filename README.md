@@ -1,4 +1,4 @@
-# ポートフォリオアプリ（開発中）
+# ポートフォリオアプリ
 
 ## 概要
 
@@ -14,9 +14,8 @@
 ## 主な技術スタック
 
 - TypeScript
-- Node.js（Firebase Functions）
-- React（開発後期）
-- Firebase Firestore
+- React
+- Supabase
 - Vercel（デプロイ）
 
 ## ディレクトリ構成
@@ -37,13 +36,11 @@ my-portfolio/
 │   │       ├── ContactForm.tsx
 │   │       └── contactTypes.ts
 │   ├── lib/
-│   │   └── supabase.ts   # Supabaseクライアント設定
+│   │   └── supabaseClient.ts   # Supabaseクライアント設定
 │   ├── pages/
 │   │   ├── Home.tsx
 │   │   ├── Projects.tsx
-│   │   └── Contact.tsx
-│   ├── routes/
-│   │   └── router.tsx    # react-router-dom の設定
+│   │   
 │   ├── App.tsx
 |   ├── index.css
 │   └── main.tsx
@@ -53,13 +50,3 @@ my-portfolio/
 ├── tsconfig.json
 └── vite.config.ts
 ```
-
-## 現在の開発状況
-
-## 使い方・デプロイ方法
-
-...
-
-## ライセンス
-
-...
